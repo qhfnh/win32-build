@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Classes\AppMacros.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\.gitignore">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\bang.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-20.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-20@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-20@3x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-29.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-29@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-29@3x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-40.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-40@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-40@3x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-50.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-50@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-57.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-57@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-60@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-60@3x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-72.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-72@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-76.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-76@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\icons\Icon-83.5@2x.png">
+      <Filter>Resources\icons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\ipad\CloseNormal.png">
+      <Filter>Resources\ipad</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\ipad\CloseSelected.png">
+      <Filter>Resources\ipad</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\ipad\HelloWorld.png">
+      <Filter>Resources\ipad</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\ipad\grossini.png">
+      <Filter>Resources\ipad</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\ipad\uv_checker_01.jpg">
+      <Filter>Resources\ipad</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\ipadhd\CloseNormal.png">
+      <Filter>Resources\ipadhd</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\ipadhd\CloseSelected.png">
+      <Filter>Resources\ipadhd</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\ipadhd\HelloWorld.png">
+      <Filter>Resources\ipadhd</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\iphone\CloseNormal.png">
+      <Filter>Resources\iphone</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\iphone\CloseSelected.png">
+      <Filter>Resources\iphone</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\Resources\iphone\HelloWorld.png">
+      <Filter>Resources\iphone</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\cocos2d-x-4.0\tests\cpp-empty-test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{F7E744A4-D20D-3514-927E-61C38DC34887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{79C257C5-CEDE-36EE-BC3A-A1BBC360E024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\icons">
+      <UniqueIdentifier>{A04C2BE4-C0CF-3821-B77D-E125F3FEA0C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\ipad">
+      <UniqueIdentifier>{45F2A945-AB07-3DE4-BD4B-16BEC0BA9337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\ipadhd">
+      <UniqueIdentifier>{C4B1B278-684E-36E1-9A1B-000CFB91C58F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\iphone">
+      <UniqueIdentifier>{25262ED3-430F-326F-8D7B-E4CC49F5D77F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{156EFC2C-2BC8-3273-BEEB-617364047224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{876B57BD-3133-379E-8023-6BF523816825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{324A4E13-24EE-3E40-A04A-1F27CC584B29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

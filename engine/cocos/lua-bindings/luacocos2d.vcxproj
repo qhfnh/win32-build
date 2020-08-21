@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E47CC686-12FB-3B51-B0ED-AF1A1916ACD5}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>luacocos2d</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\cocos2d-x-4.0\win32-build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">luacocos2d.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">luacocos2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\cocos2d-x-4.0\win32-build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">luacocos2d.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">luacocos2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\cocos2d-x-4.0\win32-build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">luacocos2d.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">luacocos2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\cocos2d-x-4.0\win32-build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">luacocos2d.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">luacocos2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android;D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android\jni;D:\cocos2d-x-4.0;D:\cocos2d-x-4.0\cocos;D:\cocos2d-x-4.0\extensions;D:\cocos2d-x-4.0\cocos\platform;D:\cocos2d-x-4.0\cocos\editor-support;D:\cocos2d-x-4.0\cocos\base;D:\cocos2d-x-4.0\cocos\audio\include;D:\cocos2d-x-4.0\cocos\platform\win32;D:\cocos2d-x-4.0\external\recast\..;D:\cocos2d-x-4.0\external\tinyxml2\.;D:\cocos2d-x-4.0\external\xxhash\.;D:\cocos2d-x-4.0\external\xxtea\.;D:\cocos2d-x-4.0\external\clipper\.;D:\cocos2d-x-4.0\external\edtaa3func\.;D:\cocos2d-x-4.0\external\ConvertUTF\.;D:\cocos2d-x-4.0\external\poly2tri\..;D:\cocos2d-x-4.0\external\md5\..;D:\cocos2d-x-4.0\external\unzip\.;D:\cocos2d-x-4.0\external\lua\tolua\.;D:\cocos2d-x-4.0\external\lua\luasocket\..;D:\cocos2d-x-4.0\external\Box2D\include;D:\cocos2d-x-4.0\external\chipmunk\include;D:\cocos2d-x-4.0\external\freetype2\include\win32\freetype2;D:\cocos2d-x-4.0\external\bullet\include;D:\cocos2d-x-4.0\external\bullet\include\bullet;D:\cocos2d-x-4.0\external\jpeg\include\win32;D:\cocos2d-x-4.0\external\openssl\include\win32;D:\cocos2d-x-4.0\external\uv\include;D:\cocos2d-x-4.0\external\webp\include\win32;D:\cocos2d-x-4.0\external\websockets\include\win32;D:\cocos2d-x-4.0\external\curl\include\win32;D:\cocos2d-x-4.0\external\png\include\win32;D:\cocos2d-x-4.0\external\win32-specific\gles\include\OGLES;D:\cocos2d-x-4.0\external\win32-specific\icon\include;D:\cocos2d-x-4.0\external\win32-specific\MP3Decoder\include;D:\cocos2d-x-4.0\external\win32-specific\OggDecoder\include;D:\cocos2d-x-4.0\external\win32-specific\OpenalSoft\include;D:\cocos2d-x-4.0\external\glfw3\include\win32;D:\cocos2d-x-4.0\external\zlib\..\win32-specific\zlib\include;D:\cocos2d-x-4.0\external\lua\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRLUASTATIC;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRLUASTATIC;COCOS2D_DEBUG=1;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android;D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android\jni;D:\cocos2d-x-4.0;D:\cocos2d-x-4.0\cocos;D:\cocos2d-x-4.0\extensions;D:\cocos2d-x-4.0\cocos\platform;D:\cocos2d-x-4.0\cocos\editor-support;D:\cocos2d-x-4.0\cocos\base;D:\cocos2d-x-4.0\cocos\audio\include;D:\cocos2d-x-4.0\cocos\platform\win32;D:\cocos2d-x-4.0\external\recast\..;D:\cocos2d-x-4.0\external\tinyxml2\.;D:\cocos2d-x-4.0\external\xxhash\.;D:\cocos2d-x-4.0\external\xxtea\.;D:\cocos2d-x-4.0\external\clipper\.;D:\cocos2d-x-4.0\external\edtaa3func\.;D:\cocos2d-x-4.0\external\ConvertUTF\.;D:\cocos2d-x-4.0\external\poly2tri\..;D:\cocos2d-x-4.0\external\md5\..;D:\cocos2d-x-4.0\external\unzip\.;D:\cocos2d-x-4.0\external\lua\tolua\.;D:\cocos2d-x-4.0\external\lua\luasocket\..;D:\cocos2d-x-4.0\external\Box2D\include;D:\cocos2d-x-4.0\external\chipmunk\include;D:\cocos2d-x-4.0\external\freetype2\include\win32\freetype2;D:\cocos2d-x-4.0\external\bullet\include;D:\cocos2d-x-4.0\external\bullet\include\bullet;D:\cocos2d-x-4.0\external\jpeg\include\win32;D:\cocos2d-x-4.0\external\openssl\include\win32;D:\cocos2d-x-4.0\external\uv\include;D:\cocos2d-x-4.0\external\webp\include\win32;D:\cocos2d-x-4.0\external\websockets\include\win32;D:\cocos2d-x-4.0\external\curl\include\win32;D:\cocos2d-x-4.0\external\png\include\win32;D:\cocos2d-x-4.0\external\win32-specific\gles\include\OGLES;D:\cocos2d-x-4.0\external\win32-specific\icon\include;D:\cocos2d-x-4.0\external\win32-specific\MP3Decoder\include;D:\cocos2d-x-4.0\external\win32-specific\OggDecoder\include;D:\cocos2d-x-4.0\external\win32-specific\OpenalSoft\include;D:\cocos2d-x-4.0\external\glfw3\include\win32;D:\cocos2d-x-4.0\external\zlib\..\win32-specific\zlib\include;D:\cocos2d-x-4.0\external\lua\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android;D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android\jni;D:\cocos2d-x-4.0;D:\cocos2d-x-4.0\cocos;D:\cocos2d-x-4.0\extensions;D:\cocos2d-x-4.0\cocos\platform;D:\cocos2d-x-4.0\cocos\editor-support;D:\cocos2d-x-4.0\cocos\base;D:\cocos2d-x-4.0\cocos\audio\include;D:\cocos2d-x-4.0\cocos\platform\win32;D:\cocos2d-x-4.0\external\recast\..;D:\cocos2d-x-4.0\external\tinyxml2\.;D:\cocos2d-x-4.0\external\xxhash\.;D:\cocos2d-x-4.0\external\xxtea\.;D:\cocos2d-x-4.0\external\clipper\.;D:\cocos2d-x-4.0\external\edtaa3func\.;D:\cocos2d-x-4.0\external\ConvertUTF\.;D:\cocos2d-x-4.0\external\poly2tri\..;D:\cocos2d-x-4.0\external\md5\..;D:\cocos2d-x-4.0\external\unzip\.;D:\cocos2d-x-4.0\external\lua\tolua\.;D:\cocos2d-x-4.0\external\lua\luasocket\..;D:\cocos2d-x-4.0\external\Box2D\include;D:\cocos2d-x-4.0\external\chipmunk\include;D:\cocos2d-x-4.0\external\freetype2\include\win32\freetype2;D:\cocos2d-x-4.0\external\bullet\include;D:\cocos2d-x-4.0\external\bullet\include\bullet;D:\cocos2d-x-4.0\external\jpeg\include\win32;D:\cocos2d-x-4.0\external\openssl\include\win32;D:\cocos2d-x-4.0\external\uv\include;D:\cocos2d-x-4.0\external\webp\include\win32;D:\cocos2d-x-4.0\external\websockets\include\win32;D:\cocos2d-x-4.0\external\curl\include\win32;D:\cocos2d-x-4.0\external\png\include\win32;D:\cocos2d-x-4.0\external\win32-specific\gles\include\OGLES;D:\cocos2d-x-4.0\external\win32-specific\icon\include;D:\cocos2d-x-4.0\external\win32-specific\MP3Decoder\include;D:\cocos2d-x-4.0\external\win32-specific\OggDecoder\include;D:\cocos2d-x-4.0\external\win32-specific\OpenalSoft\include;D:\cocos2d-x-4.0\external\glfw3\include\win32;D:\cocos2d-x-4.0\external\zlib\..\win32-specific\zlib\include;D:\cocos2d-x-4.0\external\lua\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android;D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android\jni;D:\cocos2d-x-4.0;D:\cocos2d-x-4.0\cocos;D:\cocos2d-x-4.0\extensions;D:\cocos2d-x-4.0\cocos\platform;D:\cocos2d-x-4.0\cocos\editor-support;D:\cocos2d-x-4.0\cocos\base;D:\cocos2d-x-4.0\cocos\audio\include;D:\cocos2d-x-4.0\cocos\platform\win32;D:\cocos2d-x-4.0\external\recast\..;D:\cocos2d-x-4.0\external\tinyxml2\.;D:\cocos2d-x-4.0\external\xxhash\.;D:\cocos2d-x-4.0\external\xxtea\.;D:\cocos2d-x-4.0\external\clipper\.;D:\cocos2d-x-4.0\external\edtaa3func\.;D:\cocos2d-x-4.0\external\ConvertUTF\.;D:\cocos2d-x-4.0\external\poly2tri\..;D:\cocos2d-x-4.0\external\md5\..;D:\cocos2d-x-4.0\external\unzip\.;D:\cocos2d-x-4.0\external\lua\tolua\.;D:\cocos2d-x-4.0\external\lua\luasocket\..;D:\cocos2d-x-4.0\external\Box2D\include;D:\cocos2d-x-4.0\external\chipmunk\include;D:\cocos2d-x-4.0\external\freetype2\include\win32\freetype2;D:\cocos2d-x-4.0\external\bullet\include;D:\cocos2d-x-4.0\external\bullet\include\bullet;D:\cocos2d-x-4.0\external\jpeg\include\win32;D:\cocos2d-x-4.0\external\openssl\include\win32;D:\cocos2d-x-4.0\external\uv\include;D:\cocos2d-x-4.0\external\webp\include\win32;D:\cocos2d-x-4.0\external\websockets\include\win32;D:\cocos2d-x-4.0\external\curl\include\win32;D:\cocos2d-x-4.0\external\png\include\win32;D:\cocos2d-x-4.0\external\win32-specific\gles\include\OGLES;D:\cocos2d-x-4.0\external\win32-specific\icon\include;D:\cocos2d-x-4.0\external\win32-specific\MP3Decoder\include;D:\cocos2d-x-4.0\external\win32-specific\OggDecoder\include;D:\cocos2d-x-4.0\external\win32-specific\OpenalSoft\include;D:\cocos2d-x-4.0\external\glfw3\include\win32;D:\cocos2d-x-4.0\external\zlib\..\win32-specific\zlib\include;D:\cocos2d-x-4.0\external\lua\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRLUASTATIC;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRLUASTATIC;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android;D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android\jni;D:\cocos2d-x-4.0;D:\cocos2d-x-4.0\cocos;D:\cocos2d-x-4.0\extensions;D:\cocos2d-x-4.0\cocos\platform;D:\cocos2d-x-4.0\cocos\editor-support;D:\cocos2d-x-4.0\cocos\base;D:\cocos2d-x-4.0\cocos\audio\include;D:\cocos2d-x-4.0\cocos\platform\win32;D:\cocos2d-x-4.0\external\recast\..;D:\cocos2d-x-4.0\external\tinyxml2\.;D:\cocos2d-x-4.0\external\xxhash\.;D:\cocos2d-x-4.0\external\xxtea\.;D:\cocos2d-x-4.0\external\clipper\.;D:\cocos2d-x-4.0\external\edtaa3func\.;D:\cocos2d-x-4.0\external\ConvertUTF\.;D:\cocos2d-x-4.0\external\poly2tri\..;D:\cocos2d-x-4.0\external\md5\..;D:\cocos2d-x-4.0\external\unzip\.;D:\cocos2d-x-4.0\external\lua\tolua\.;D:\cocos2d-x-4.0\external\lua\luasocket\..;D:\cocos2d-x-4.0\external\Box2D\include;D:\cocos2d-x-4.0\external\chipmunk\include;D:\cocos2d-x-4.0\external\freetype2\include\win32\freetype2;D:\cocos2d-x-4.0\external\bullet\include;D:\cocos2d-x-4.0\external\bullet\include\bullet;D:\cocos2d-x-4.0\external\jpeg\include\win32;D:\cocos2d-x-4.0\external\openssl\include\win32;D:\cocos2d-x-4.0\external\uv\include;D:\cocos2d-x-4.0\external\webp\include\win32;D:\cocos2d-x-4.0\external\websockets\include\win32;D:\cocos2d-x-4.0\external\curl\include\win32;D:\cocos2d-x-4.0\external\png\include\win32;D:\cocos2d-x-4.0\external\win32-specific\gles\include\OGLES;D:\cocos2d-x-4.0\external\win32-specific\icon\include;D:\cocos2d-x-4.0\external\win32-specific\MP3Decoder\include;D:\cocos2d-x-4.0\external\win32-specific\OggDecoder\include;D:\cocos2d-x-4.0\external\win32-specific\OpenalSoft\include;D:\cocos2d-x-4.0\external\glfw3\include\win32;D:\cocos2d-x-4.0\external\zlib\..\win32-specific\zlib\include;D:\cocos2d-x-4.0\external\lua\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android;D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android\jni;D:\cocos2d-x-4.0;D:\cocos2d-x-4.0\cocos;D:\cocos2d-x-4.0\extensions;D:\cocos2d-x-4.0\cocos\platform;D:\cocos2d-x-4.0\cocos\editor-support;D:\cocos2d-x-4.0\cocos\base;D:\cocos2d-x-4.0\cocos\audio\include;D:\cocos2d-x-4.0\cocos\platform\win32;D:\cocos2d-x-4.0\external\recast\..;D:\cocos2d-x-4.0\external\tinyxml2\.;D:\cocos2d-x-4.0\external\xxhash\.;D:\cocos2d-x-4.0\external\xxtea\.;D:\cocos2d-x-4.0\external\clipper\.;D:\cocos2d-x-4.0\external\edtaa3func\.;D:\cocos2d-x-4.0\external\ConvertUTF\.;D:\cocos2d-x-4.0\external\poly2tri\..;D:\cocos2d-x-4.0\external\md5\..;D:\cocos2d-x-4.0\external\unzip\.;D:\cocos2d-x-4.0\external\lua\tolua\.;D:\cocos2d-x-4.0\external\lua\luasocket\..;D:\cocos2d-x-4.0\external\Box2D\include;D:\cocos2d-x-4.0\external\chipmunk\include;D:\cocos2d-x-4.0\external\freetype2\include\win32\freetype2;D:\cocos2d-x-4.0\external\bullet\include;D:\cocos2d-x-4.0\external\bullet\include\bullet;D:\cocos2d-x-4.0\external\jpeg\include\win32;D:\cocos2d-x-4.0\external\openssl\include\win32;D:\cocos2d-x-4.0\external\uv\include;D:\cocos2d-x-4.0\external\webp\include\win32;D:\cocos2d-x-4.0\external\websockets\include\win32;D:\cocos2d-x-4.0\external\curl\include\win32;D:\cocos2d-x-4.0\external\png\include\win32;D:\cocos2d-x-4.0\external\win32-specific\gles\include\OGLES;D:\cocos2d-x-4.0\external\win32-specific\icon\include;D:\cocos2d-x-4.0\external\win32-specific\MP3Decoder\include;D:\cocos2d-x-4.0\external\win32-specific\OggDecoder\include;D:\cocos2d-x-4.0\external\win32-specific\OpenalSoft\include;D:\cocos2d-x-4.0\external\glfw3\include\win32;D:\cocos2d-x-4.0\external\zlib\..\win32-specific\zlib\include;D:\cocos2d-x-4.0\external\lua\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android;D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android\jni;D:\cocos2d-x-4.0;D:\cocos2d-x-4.0\cocos;D:\cocos2d-x-4.0\extensions;D:\cocos2d-x-4.0\cocos\platform;D:\cocos2d-x-4.0\cocos\editor-support;D:\cocos2d-x-4.0\cocos\base;D:\cocos2d-x-4.0\cocos\audio\include;D:\cocos2d-x-4.0\cocos\platform\win32;D:\cocos2d-x-4.0\external\recast\..;D:\cocos2d-x-4.0\external\tinyxml2\.;D:\cocos2d-x-4.0\external\xxhash\.;D:\cocos2d-x-4.0\external\xxtea\.;D:\cocos2d-x-4.0\external\clipper\.;D:\cocos2d-x-4.0\external\edtaa3func\.;D:\cocos2d-x-4.0\external\ConvertUTF\.;D:\cocos2d-x-4.0\external\poly2tri\..;D:\cocos2d-x-4.0\external\md5\..;D:\cocos2d-x-4.0\external\unzip\.;D:\cocos2d-x-4.0\external\lua\tolua\.;D:\cocos2d-x-4.0\external\lua\luasocket\..;D:\cocos2d-x-4.0\external\Box2D\include;D:\cocos2d-x-4.0\external\chipmunk\include;D:\cocos2d-x-4.0\external\freetype2\include\win32\freetype2;D:\cocos2d-x-4.0\external\bullet\include;D:\cocos2d-x-4.0\external\bullet\include\bullet;D:\cocos2d-x-4.0\external\jpeg\include\win32;D:\cocos2d-x-4.0\external\openssl\include\win32;D:\cocos2d-x-4.0\external\uv\include;D:\cocos2d-x-4.0\external\webp\include\win32;D:\cocos2d-x-4.0\external\websockets\include\win32;D:\cocos2d-x-4.0\external\curl\include\win32;D:\cocos2d-x-4.0\external\png\include\win32;D:\cocos2d-x-4.0\external\win32-specific\gles\include\OGLES;D:\cocos2d-x-4.0\external\win32-specific\icon\include;D:\cocos2d-x-4.0\external\win32-specific\MP3Decoder\include;D:\cocos2d-x-4.0\external\win32-specific\OggDecoder\include;D:\cocos2d-x-4.0\external\win32-specific\OpenalSoft\include;D:\cocos2d-x-4.0\external\glfw3\include\win32;D:\cocos2d-x-4.0\external\zlib\..\win32-specific\zlib\include;D:\cocos2d-x-4.0\external\lua\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRLUASTATIC;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRLUASTATIC;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android;D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android\jni;D:\cocos2d-x-4.0;D:\cocos2d-x-4.0\cocos;D:\cocos2d-x-4.0\extensions;D:\cocos2d-x-4.0\cocos\platform;D:\cocos2d-x-4.0\cocos\editor-support;D:\cocos2d-x-4.0\cocos\base;D:\cocos2d-x-4.0\cocos\audio\include;D:\cocos2d-x-4.0\cocos\platform\win32;D:\cocos2d-x-4.0\external\recast\..;D:\cocos2d-x-4.0\external\tinyxml2\.;D:\cocos2d-x-4.0\external\xxhash\.;D:\cocos2d-x-4.0\external\xxtea\.;D:\cocos2d-x-4.0\external\clipper\.;D:\cocos2d-x-4.0\external\edtaa3func\.;D:\cocos2d-x-4.0\external\ConvertUTF\.;D:\cocos2d-x-4.0\external\poly2tri\..;D:\cocos2d-x-4.0\external\md5\..;D:\cocos2d-x-4.0\external\unzip\.;D:\cocos2d-x-4.0\external\lua\tolua\.;D:\cocos2d-x-4.0\external\lua\luasocket\..;D:\cocos2d-x-4.0\external\Box2D\include;D:\cocos2d-x-4.0\external\chipmunk\include;D:\cocos2d-x-4.0\external\freetype2\include\win32\freetype2;D:\cocos2d-x-4.0\external\bullet\include;D:\cocos2d-x-4.0\external\bullet\include\bullet;D:\cocos2d-x-4.0\external\jpeg\include\win32;D:\cocos2d-x-4.0\external\openssl\include\win32;D:\cocos2d-x-4.0\external\uv\include;D:\cocos2d-x-4.0\external\webp\include\win32;D:\cocos2d-x-4.0\external\websockets\include\win32;D:\cocos2d-x-4.0\external\curl\include\win32;D:\cocos2d-x-4.0\external\png\include\win32;D:\cocos2d-x-4.0\external\win32-specific\gles\include\OGLES;D:\cocos2d-x-4.0\external\win32-specific\icon\include;D:\cocos2d-x-4.0\external\win32-specific\MP3Decoder\include;D:\cocos2d-x-4.0\external\win32-specific\OggDecoder\include;D:\cocos2d-x-4.0\external\win32-specific\OpenalSoft\include;D:\cocos2d-x-4.0\external\glfw3\include\win32;D:\cocos2d-x-4.0\external\zlib\..\win32-specific\zlib\include;D:\cocos2d-x-4.0\external\lua\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android;D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android\jni;D:\cocos2d-x-4.0;D:\cocos2d-x-4.0\cocos;D:\cocos2d-x-4.0\extensions;D:\cocos2d-x-4.0\cocos\platform;D:\cocos2d-x-4.0\cocos\editor-support;D:\cocos2d-x-4.0\cocos\base;D:\cocos2d-x-4.0\cocos\audio\include;D:\cocos2d-x-4.0\cocos\platform\win32;D:\cocos2d-x-4.0\external\recast\..;D:\cocos2d-x-4.0\external\tinyxml2\.;D:\cocos2d-x-4.0\external\xxhash\.;D:\cocos2d-x-4.0\external\xxtea\.;D:\cocos2d-x-4.0\external\clipper\.;D:\cocos2d-x-4.0\external\edtaa3func\.;D:\cocos2d-x-4.0\external\ConvertUTF\.;D:\cocos2d-x-4.0\external\poly2tri\..;D:\cocos2d-x-4.0\external\md5\..;D:\cocos2d-x-4.0\external\unzip\.;D:\cocos2d-x-4.0\external\lua\tolua\.;D:\cocos2d-x-4.0\external\lua\luasocket\..;D:\cocos2d-x-4.0\external\Box2D\include;D:\cocos2d-x-4.0\external\chipmunk\include;D:\cocos2d-x-4.0\external\freetype2\include\win32\freetype2;D:\cocos2d-x-4.0\external\bullet\include;D:\cocos2d-x-4.0\external\bullet\include\bullet;D:\cocos2d-x-4.0\external\jpeg\include\win32;D:\cocos2d-x-4.0\external\openssl\include\win32;D:\cocos2d-x-4.0\external\uv\include;D:\cocos2d-x-4.0\external\webp\include\win32;D:\cocos2d-x-4.0\external\websockets\include\win32;D:\cocos2d-x-4.0\external\curl\include\win32;D:\cocos2d-x-4.0\external\png\include\win32;D:\cocos2d-x-4.0\external\win32-specific\gles\include\OGLES;D:\cocos2d-x-4.0\external\win32-specific\icon\include;D:\cocos2d-x-4.0\external\win32-specific\MP3Decoder\include;D:\cocos2d-x-4.0\external\win32-specific\OggDecoder\include;D:\cocos2d-x-4.0\external\win32-specific\OpenalSoft\include;D:\cocos2d-x-4.0\external\glfw3\include\win32;D:\cocos2d-x-4.0\external\zlib\..\win32-specific\zlib\include;D:\cocos2d-x-4.0\external\lua\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android;D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android\jni;D:\cocos2d-x-4.0;D:\cocos2d-x-4.0\cocos;D:\cocos2d-x-4.0\extensions;D:\cocos2d-x-4.0\cocos\platform;D:\cocos2d-x-4.0\cocos\editor-support;D:\cocos2d-x-4.0\cocos\base;D:\cocos2d-x-4.0\cocos\audio\include;D:\cocos2d-x-4.0\cocos\platform\win32;D:\cocos2d-x-4.0\external\recast\..;D:\cocos2d-x-4.0\external\tinyxml2\.;D:\cocos2d-x-4.0\external\xxhash\.;D:\cocos2d-x-4.0\external\xxtea\.;D:\cocos2d-x-4.0\external\clipper\.;D:\cocos2d-x-4.0\external\edtaa3func\.;D:\cocos2d-x-4.0\external\ConvertUTF\.;D:\cocos2d-x-4.0\external\poly2tri\..;D:\cocos2d-x-4.0\external\md5\..;D:\cocos2d-x-4.0\external\unzip\.;D:\cocos2d-x-4.0\external\lua\tolua\.;D:\cocos2d-x-4.0\external\lua\luasocket\..;D:\cocos2d-x-4.0\external\Box2D\include;D:\cocos2d-x-4.0\external\chipmunk\include;D:\cocos2d-x-4.0\external\freetype2\include\win32\freetype2;D:\cocos2d-x-4.0\external\bullet\include;D:\cocos2d-x-4.0\external\bullet\include\bullet;D:\cocos2d-x-4.0\external\jpeg\include\win32;D:\cocos2d-x-4.0\external\openssl\include\win32;D:\cocos2d-x-4.0\external\uv\include;D:\cocos2d-x-4.0\external\webp\include\win32;D:\cocos2d-x-4.0\external\websockets\include\win32;D:\cocos2d-x-4.0\external\curl\include\win32;D:\cocos2d-x-4.0\external\png\include\win32;D:\cocos2d-x-4.0\external\win32-specific\gles\include\OGLES;D:\cocos2d-x-4.0\external\win32-specific\icon\include;D:\cocos2d-x-4.0\external\win32-specific\MP3Decoder\include;D:\cocos2d-x-4.0\external\win32-specific\OggDecoder\include;D:\cocos2d-x-4.0\external\win32-specific\OpenalSoft\include;D:\cocos2d-x-4.0\external\glfw3\include\win32;D:\cocos2d-x-4.0\external\zlib\..\win32-specific\zlib\include;D:\cocos2d-x-4.0\external\lua\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRLUASTATIC;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USRLUASTATIC;_WIN32;UNICODE;_UNICODE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CC_STATIC;LWS_WITH_LIBUV;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android;D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android\jni;D:\cocos2d-x-4.0;D:\cocos2d-x-4.0\cocos;D:\cocos2d-x-4.0\extensions;D:\cocos2d-x-4.0\cocos\platform;D:\cocos2d-x-4.0\cocos\editor-support;D:\cocos2d-x-4.0\cocos\base;D:\cocos2d-x-4.0\cocos\audio\include;D:\cocos2d-x-4.0\cocos\platform\win32;D:\cocos2d-x-4.0\external\recast\..;D:\cocos2d-x-4.0\external\tinyxml2\.;D:\cocos2d-x-4.0\external\xxhash\.;D:\cocos2d-x-4.0\external\xxtea\.;D:\cocos2d-x-4.0\external\clipper\.;D:\cocos2d-x-4.0\external\edtaa3func\.;D:\cocos2d-x-4.0\external\ConvertUTF\.;D:\cocos2d-x-4.0\external\poly2tri\..;D:\cocos2d-x-4.0\external\md5\..;D:\cocos2d-x-4.0\external\unzip\.;D:\cocos2d-x-4.0\external\lua\tolua\.;D:\cocos2d-x-4.0\external\lua\luasocket\..;D:\cocos2d-x-4.0\external\Box2D\include;D:\cocos2d-x-4.0\external\chipmunk\include;D:\cocos2d-x-4.0\external\freetype2\include\win32\freetype2;D:\cocos2d-x-4.0\external\bullet\include;D:\cocos2d-x-4.0\external\bullet\include\bullet;D:\cocos2d-x-4.0\external\jpeg\include\win32;D:\cocos2d-x-4.0\external\openssl\include\win32;D:\cocos2d-x-4.0\external\uv\include;D:\cocos2d-x-4.0\external\webp\include\win32;D:\cocos2d-x-4.0\external\websockets\include\win32;D:\cocos2d-x-4.0\external\curl\include\win32;D:\cocos2d-x-4.0\external\png\include\win32;D:\cocos2d-x-4.0\external\win32-specific\gles\include\OGLES;D:\cocos2d-x-4.0\external\win32-specific\icon\include;D:\cocos2d-x-4.0\external\win32-specific\MP3Decoder\include;D:\cocos2d-x-4.0\external\win32-specific\OggDecoder\include;D:\cocos2d-x-4.0\external\win32-specific\OpenalSoft\include;D:\cocos2d-x-4.0\external\glfw3\include\win32;D:\cocos2d-x-4.0\external\zlib\..\win32-specific\zlib\include;D:\cocos2d-x-4.0\external\lua\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android;D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\android\jni;D:\cocos2d-x-4.0;D:\cocos2d-x-4.0\cocos;D:\cocos2d-x-4.0\extensions;D:\cocos2d-x-4.0\cocos\platform;D:\cocos2d-x-4.0\cocos\editor-support;D:\cocos2d-x-4.0\cocos\base;D:\cocos2d-x-4.0\cocos\audio\include;D:\cocos2d-x-4.0\cocos\platform\win32;D:\cocos2d-x-4.0\external\recast\..;D:\cocos2d-x-4.0\external\tinyxml2\.;D:\cocos2d-x-4.0\external\xxhash\.;D:\cocos2d-x-4.0\external\xxtea\.;D:\cocos2d-x-4.0\external\clipper\.;D:\cocos2d-x-4.0\external\edtaa3func\.;D:\cocos2d-x-4.0\external\ConvertUTF\.;D:\cocos2d-x-4.0\external\poly2tri\..;D:\cocos2d-x-4.0\external\md5\..;D:\cocos2d-x-4.0\external\unzip\.;D:\cocos2d-x-4.0\external\lua\tolua\.;D:\cocos2d-x-4.0\external\lua\luasocket\..;D:\cocos2d-x-4.0\external\Box2D\include;D:\cocos2d-x-4.0\external\chipmunk\include;D:\cocos2d-x-4.0\external\freetype2\include\win32\freetype2;D:\cocos2d-x-4.0\external\bullet\include;D:\cocos2d-x-4.0\external\bullet\include\bullet;D:\cocos2d-x-4.0\external\jpeg\include\win32;D:\cocos2d-x-4.0\external\openssl\include\win32;D:\cocos2d-x-4.0\external\uv\include;D:\cocos2d-x-4.0\external\webp\include\win32;D:\cocos2d-x-4.0\external\websockets\include\win32;D:\cocos2d-x-4.0\external\curl\include\win32;D:\cocos2d-x-4.0\external\png\include\win32;D:\cocos2d-x-4.0\external\win32-specific\gles\include\OGLES;D:\cocos2d-x-4.0\external\win32-specific\icon\include;D:\cocos2d-x-4.0\external\win32-specific\MP3Decoder\include;D:\cocos2d-x-4.0\external\win32-specific\OggDecoder\include;D:\cocos2d-x-4.0\external\win32-specific\OpenalSoft\include;D:\cocos2d-x-4.0\external\glfw3\include\win32;D:\cocos2d-x-4.0\external\zlib\..\win32-specific\zlib\include;D:\cocos2d-x-4.0\external\lua\luajit\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/cocos2d-x-4.0/cocos/scripting/lua-bindings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SD:/cocos2d-x-4.0 -BD:/cocos2d-x-4.0/win32-build --check-stamp-file D:/cocos2d-x-4.0/win32-build/engine/cocos/lua-bindings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\cocos2d-x-4.0\cocos\scripting\deprecated\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\cocos2d-x-4.0\win32-build\engine\cocos\lua-bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/cocos2d-x-4.0/cocos/scripting/lua-bindings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SD:/cocos2d-x-4.0 -BD:/cocos2d-x-4.0/win32-build --check-stamp-file D:/cocos2d-x-4.0/win32-build/engine/cocos/lua-bindings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\cocos2d-x-4.0\cocos\scripting\deprecated\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\cocos2d-x-4.0\win32-build\engine\cocos\lua-bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/cocos2d-x-4.0/cocos/scripting/lua-bindings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SD:/cocos2d-x-4.0 -BD:/cocos2d-x-4.0/win32-build --check-stamp-file D:/cocos2d-x-4.0/win32-build/engine/cocos/lua-bindings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\cocos2d-x-4.0\cocos\scripting\deprecated\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\cocos2d-x-4.0\win32-build\engine\cocos\lua-bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/cocos2d-x-4.0/cocos/scripting/lua-bindings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SD:/cocos2d-x-4.0 -BD:/cocos2d-x-4.0/win32-build --check-stamp-file D:/cocos2d-x-4.0/win32-build/engine/cocos/lua-bindings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\cocos2d-x-4.0\cocos\scripting\deprecated\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\cocos2d-x-4.0\win32-build\engine\cocos\lua-bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\CCLuaBridge.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\CCLuaEngine.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\CCLuaStack.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\CCLuaValue.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\Cocos2dxLuaLoader.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\LuaBasicConversions.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\lua_module_register.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\tolua_fix.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\CCComponentLua.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\cocos2d\LuaScriptHandlerMgr.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\cocos2d\lua_cocos2dx_deprecated.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\cocos2d\lua_cocos2dx_manual.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\cocos2d\lua_cocos2dx_physics_manual.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\3d\lua_cocos2dx_3d_manual.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\cocostudio\CustomGUIReader.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\cocostudio\lua_cocos2dx_coco_studio_manual.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\cocostudio\lua-cocos-studio-conversions.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\cocostudio\lua_cocos2dx_csloader_manual.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\controller\lua_cocos2dx_controller_manual.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\extension\lua_cocos2dx_extension_manual.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\network\lua_extensions.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\network\lua_cocos2dx_network_manual.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\network\Lua_web_socket.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\network\lua_xml_http_request.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\network\lua_downloader.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\spine\LuaSkeletonAnimation.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\ui\lua_cocos2dx_ui_manual.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\audioengine\lua_cocos2dx_audioengine_manual.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\physics3d\lua_cocos2dx_physics3d_manual.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\navmesh\lua_cocos2dx_navmesh_conversions.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\navmesh\lua_cocos2dx_navmesh_manual.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_3d_auto.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_controller_auto.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_extension_auto.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_physics_auto.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_studio_auto.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_csloader_auto.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_ui_auto.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_audioengine_auto.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_physics3d_auto.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_navmesh_auto.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_backend_auto.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCDictionary.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCDeprecated.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCNotificationCenter.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCString.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCSet.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCArray.cpp" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCDataVisitor.cpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\CCComponentLua.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\3d\lua_cocos2dx_3d_manual.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\CCLuaStack.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\CCLuaEngine.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\lua_module_register.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\CCLuaBridge.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\extension\lua_cocos2dx_extension_manual.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\LuaBasicConversions.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\spine\LuaSkeletonAnimation.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\platform\ios\CCLuaObjcBridge.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\network\lua_cocos2dx_network_manual.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\network\lua_xml_http_request.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\network\Lua_web_socket.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\network\lua_extensions.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\network\lua_downloader.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\audioengine\lua_cocos2dx_audioengine_manual.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\Lua-BindingsExport.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\tolua_fix.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\navmesh\lua_cocos2dx_navmesh_manual.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\navmesh\lua_cocos2dx_navmesh_conversions.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\cocos2d\lua_cocos2dx_deprecated.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\cocos2d\LuaScriptHandlerMgr.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\cocos2d\lua_cocos2dx_manual.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\Cocos2dxLuaLoader.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\CCLuaValue.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\physics3d\lua_cocos2dx_physics3d_manual.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\cocostudio\lua-cocos-studio-conversions.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\cocostudio\CustomGUIReader.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\ui\lua_cocos2dx_ui_manual.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\manual\controller\lua_cocos2dx_controller_manual.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_audioengine_auto.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_3d_auto.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_controller_auto.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_spine_auto.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_studio_auto.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_auto.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_navmesh_auto.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_csloader_auto.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_physics3d_auto.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_ui_auto.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_physics_auto.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_extension_auto.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\lua-bindings\auto\lua_cocos2dx_backend_auto.hpp" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCDictionary.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCDouble.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCBool.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCDeprecated.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCNotificationCenter.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCString.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCFloat.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCSet.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCInteger.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCArray.h" />
+    <ClInclude Include="D:\cocos2d-x-4.0\cocos\scripting\deprecated\CCDataVisitor.h" />
+    <ClCompile Include="D:\cocos2d-x-4.0\cocos\precheader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\ZERO_CHECK.vcxproj">
+      <Project>{97333B05-8A6E-3445-8FAF-C734AC776193}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{16A5FE30-B67D-3B05-8C15-77EA2352697A}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{39DBD0F3-104B-3C19-B15A-5907B0E2A6E8}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{35E24A02-8BCE-34D0-A9C8-B36EEF4C49D4}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{C026B485-758F-3EB3-AA0E-534EF9A36A88}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\engine\external\lua\luasocket\ext_luasocket.vcxproj">
+      <Project>{036DF675-512C-3ADA-829F-43CCBD5720ED}</Project>
+      <Name>ext_luasocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\engine\external\md5\ext_md5.vcxproj">
+      <Project>{827DB545-5658-3B83-82F0-EBB82FC05AC1}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{5FD6ABDF-FBC4-32FB-BD29-06F060BD304A}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\engine\external\recast\ext_recast.vcxproj">
+      <Project>{FEAB925D-0DEA-312A-A9D1-F94A486CBD43}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{D665D7B8-3EC5-3C4B-9005-7A3702F64B36}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\engine\external\lua\tolua\ext_tolua.vcxproj">
+      <Project>{E180B132-7585-394D-AB92-F91BC154864F}</Project>
+      <Name>ext_tolua</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{49AE0A20-6239-3779-A6CE-067CC83D4981}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{EEB541A7-CC69-30C8-BBE6-07DF3B0B4443}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{BD6BED7C-0AAE-39BB-8C09-5A96D0D82DE5}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\cocos2d-x-4.0\win32-build\engine\external\external.vcxproj">
+      <Project>{729AF0E6-024A-355F-9457-86CC3CD0625E}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

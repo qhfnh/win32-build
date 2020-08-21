@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\cocos2d-x-4.0\win32-build\CMakeFiles\8c97114d3d25c98fa1eabdc58fd49977\SYNC_RESOURCE-HelloCpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\cocos2d-x-4.0\templates\cpp-template-default\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\cocos2d-x-4.0\win32-build\engine\tests\HelloCpp\CMakeFiles\SYNC_RESOURCE-HelloCpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{152B5BF6-7424-3F75-9542-96B5D15BC3A1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
